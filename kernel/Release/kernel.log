@@ -1,0 +1,11 @@
+﻿  Performing Custom Build Tools
+  main.c
+  Paging.c
+D:\University\PSNA\MiniOS\kernel\Paging.c(18,32): warning C4047: '=': 'unsigned long' differs in levels of indirection from 'unsigned long *'
+D:\University\PSNA\MiniOS\kernel\Paging.c(26,11): warning C4013: 'write_cr3' undefined; assuming extern returning int
+D:\University\PSNA\MiniOS\kernel\Paging.c(27,11): warning C4013: 'write_cr0' undefined; assuming extern returning int
+  screen.c
+  Generating Code...
+D:\University\PSNA\MiniOS\kernel\Paging.c(27,20): warning C4013: 'read_cr0' undefined; assuming extern returning int
+  kernel.vcxproj -> D:\University\PSNA\MiniOS\kernel\Release\kernel.exe
+          1 file(s) copied.

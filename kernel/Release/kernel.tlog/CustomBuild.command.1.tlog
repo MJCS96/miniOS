@@ -1,0 +1,2 @@
+^D:\UNIVERSITY\PSNA\MINIOS\KERNEL\__INIT.ASM
+".\..\utils\nasm" -o "Release\__init.obj" -f win32 "D:\University\PSNA\MiniOS\kernel\__init.asm"
