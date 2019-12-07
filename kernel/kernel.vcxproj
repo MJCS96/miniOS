@@ -172,7 +172,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="Paging.c" />
     <ClCompile Include="screen.c" />
   </ItemGroup>
   <ItemGroup>

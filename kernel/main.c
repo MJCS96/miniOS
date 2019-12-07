@@ -7,8 +7,6 @@ void KernelMain()
     
    // __enableSSE();  // only for demo; in the future will be called from __init.asm
 	ASMEntryPoint();
-
-	activatePaging();
 	
     ClearScreen();
 
