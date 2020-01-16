@@ -171,10 +171,14 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="handlers.c" />
+    <ClCompile Include="interrupt_descriptor_table_entry.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="screen.c" />
+    <ClCompile Include="timer.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="interrupt_descriptor_table_entry.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="screen.h" />
   </ItemGroup>

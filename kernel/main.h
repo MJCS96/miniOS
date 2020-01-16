@@ -22,9 +22,8 @@ void __cli(void);
 void __sti(void);
 void __magic(void);         // MAGIC breakpoint into BOCHS (XCHG BX,BX)
 void __enableSSE(void);
-void ASMEntryPoint(void);
-void _write_cr0(void);
-void _write_cr3(void);
-void activatePaging();
-
+void irq0(void);
+void irq1(void);
+void
+pit_configure_channel(int channel, int mode, int frequency);
 #endif // _MAIN_H_

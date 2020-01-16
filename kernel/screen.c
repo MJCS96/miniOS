@@ -62,3 +62,28 @@ void ClearScreen()
     CursorMove(0, 0);
 }
 
+void PutChar(char C, int Pos)
+{
+	gVideo[Pos].color = 10;
+	gVideo[Pos].c = C;
+CursorPosition(Pos);
+}
+
+void PutString(char* String, int Pos)
+{
+	int i, len;
+
+	len = 0;
+	while (String[len] != 0)
+	{
+		len++;
+	}
+
+	for (i = Pos; (i < len) && (i < MAX_OFFSET); i++)
+	{
+		gVideo[i].color = 10;
+		gVideo[i].c = String[i];
+	}
+	CursorPosition(i);
+}
+

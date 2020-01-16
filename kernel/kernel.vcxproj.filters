@@ -21,12 +21,24 @@
     <ClCompile Include="screen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="interrupt_descriptor_table_entry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="screen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interrupt_descriptor_table_entry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
